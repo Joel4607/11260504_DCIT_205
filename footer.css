@@ -1,0 +1,50 @@
+.footer {
+  background-color: #012345;
+  color: #ffffff;
+  padding: 20px; 
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer div {
+  flex: 1;
+}
+
+
+.left, .middle, .right {
+  text-align: left;
+}
+
+
+h2 {
+  color: #ffffff; /* Heading text color */
+}
+
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+
+li {
+  margin: 10px 0;
+}
+
+
+a {
+  color: #ffffff; /* Link text color */
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+  background: #BD9C6C;
+  transition: 0.6s
+}
+
+
+.copyright {
+  margin-top: 20px;
+  text-align: center;
+}
